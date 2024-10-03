@@ -54,7 +54,7 @@ const Content = ({ searchTerm }) => {
             <li>{highlightText('9. Transportation.')} <a href="https://drive.google.com/file/d/1mP1a9qPwvjoiFbkDf5duWNT43lDKBzIn/view?usp=drive_link">PDF</a></li>
             <li>{highlightText('10. Project Planning, Design and Implementation.')} <a href="https://drive.google.com/file/d/1VsrW1vtVQFuEiXth0WPf57ZUaKT6IEFJ/view?usp=drive_link">PDF</a></li>
           </ul>
-          <a href="https://drive.google.com/uc?export=download&id=1xqNRmwGvxKTZlngAVmfV4Ywyxq_r81c-" 
+          <a href="https://drive.google.com/file/d/1xqNRmwGvxKTZlngAVmfV4Ywyxq_r81c-/view?usp=drive_link" 
           className="download-btn"> 
           <button>Download Syllabus</button>
           </a>
@@ -62,14 +62,17 @@ const Content = ({ searchTerm }) => {
 
         {/* Electrical & Electronic Engineering */}
         <div className="card">
-          <h2 className="card-title">{highlightText('Electrical & Electronic Engineering')}</h2>
+          <h2 className="card-title">{highlightText('Electronics and Communication Engineering')}</h2>
           <ul>
-            <li>{highlightText('ACD')}</li>
-            <li>{highlightText('Basic')}</li>
-            <li>{highlightText('Science')}</li>
-            <li>{highlightText('Read more...')}</li>
+          <li>{highlightText('1. Concept of Basic Electrical and Electronics Engineering')} <a href="https://drive.google.com/file/d/12YX8xs2jKyjxFyUTWHkZcotKQW9Wej4W/view?usp=drive_link">PDF</a></li>
+            <li>{highlightText('2. Digital Logic and Microprocessor.')} <a href="https://drive.google.com/file/d/1sErTm4s-EOAbXElS5Fs0l9arbtZHmHSk/view?usp=drive_link">PDF</a></li>
+            <li>{highlightText('3. Programming Language and Its Applications.')} <a href="https://drive.google.com/file/d/1nZcNHsIZXy4K1hsqglnBjVxesm3v-J6R/view?usp=drive_link">PDF</a></li>
+            <li>{highlightText('4. Computer Organization and Embedded System.')} <a href="https://drive.google.com/file/d/1f1YrTYGdUKIfZmB4IIDHlhzTNQPnas34/view?usp=drive_link">PDF</a></li>
+            <li>{highlightText('5. Concept of Basic Electrical and Electronics Engineering.')} <a href="https://drive.google.com/file/d/1ItlFIdcxMO-dYc7qTzHZ_3Nsss04j-DM/view?usp=drive_link">PDF</a></li>
+            <li>{highlightText('10. Digital Logic and Microprocessor.')} <a href="https://drive.google.com/file/d/1P6hJAFkb8bUkl8P1i_5LGVlXezEGO8hY/view?usp=drive_link">PDF</a></li>
+            <li>Remaining PDF Comming Soon.....</li>
           </ul>
-          <a href="https://drive.google.com/uc?export=download&id=1xqNRmwGvxKTZlngAVmfV4Ywyxq_r81c-" 
+          <a href="https://drive.google.com/file/d/1US9uymVw_muhRldnzl1E9TQ7EJu_fP2e/view?usp=drive_link" 
           className="download-btn"> 
           <button>Download Syllabus</button>
           </a>
