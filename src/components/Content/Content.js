@@ -22,7 +22,7 @@ const Content = ({ searchTerm }) => {
         <div className="card">
           <h2 className="card-title">{highlightText('Computer Engineering.')}</h2>
           <ul>
-            <li>{highlightText('1. Concept of Basic Electrical and Electronics Engineering')} <a href="https://drive.google.com/file/d/12YX8xs2jKyjxFyUTWHkZcotKQW9Wej4W/view?usp=drive_link">PDF</a></li>
+            <li>{highlightText('1. Concept of Basic Electrical and Electronics Engineering')} <a href="https://drive.google.com/file/d/12YX8xs2jKyjxFyUTWHkZcotKQW9Wej4W/view?usp=drive_link " target="_blank">PDF</a></li>
             <li>{highlightText('2. Digital Logic and Microprocessor.')} <a href="https://drive.google.com/file/d/1sErTm4s-EOAbXElS5Fs0l9arbtZHmHSk/view?usp=drive_link">PDF</a></li>
             <li>{highlightText('3. Programming Language and Its Applications.')} <a href="https://drive.google.com/file/d/1nZcNHsIZXy4K1hsqglnBjVxesm3v-J6R/view?usp=drive_link">PDF</a></li>
             <li>{highlightText('4. Computer Organization and Embedded System.')} <a href="https://drive.google.com/file/d/1f1YrTYGdUKIfZmB4IIDHlhzTNQPnas34/view?usp=drive_link">PDF</a></li>

@@ -11,9 +11,14 @@ const Sidebar = () => {
           <span>
             <i className="fas fa-calculator"></i> Computer Engineering 
           </span>
-          <a href="https://shyam-nec-past-qa.netlify.app/" target="_blank" rel="noopener noreferrer">Past QN.</a>
+          <a href="https://shyam-nec-past-qa.netlify.app" target="_blank" rel="noopener noreferrer" style={{ color: '#007BFF' }} >   Past QN.</a>
         </li>
-        <li><i className="fas fa-chart-bar"></i> Civil Engineering.</li>
+        <li>
+          <span>
+            <i className="fas fa-calculator"></i> Civil Engineering 
+          </span>
+          <a href="https://sahcivilqn.netlify.app" target="_blank" rel="noopener noreferrer" style={{ color: '#007BFF' }}> Past QN.</a>
+        </li>
         <li><i className="fas fa-language"></i> Electrical & Electronic Engineering.</li>
         <li><i className="fas fa-brain"></i> Mechanical Engineering</li>
       </ul>
