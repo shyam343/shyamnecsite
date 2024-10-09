@@ -12,7 +12,7 @@ const Content = ({ searchTerm }) => {
 
   return (
     <div className="content">
-      <h1 className="welcome">WELCOME TO SAHNECPREPRATION</h1>
+      <h1 className="welcome">WELCOME TO SAH NECPREPARATION</h1>
       <p className="subtitle">
        NEC Question Answer Preparation For NEC License Exam.
       </p>
@@ -22,7 +22,7 @@ const Content = ({ searchTerm }) => {
         <div className="card">
           <h2 className="card-title">{highlightText('Computer Engineering.')}</h2>
           <ul>
-            <li>{highlightText('1. Concept of Basic Electrical and Electronics Engineering')} <a href="https://drive.google.com/file/d/12YX8xs2jKyjxFyUTWHkZcotKQW9Wej4W/view?usp=drive_link " target="_blank">PDF</a></li>
+            <li>{highlightText('1. Concept of Basic Electrical and Electronics Engineering')} <a href="https://drive.google.com/file/d/12YX8xs2jKyjxFyUTWHkZcotKQW9Wej4W/view?usp=drive_link " target="_blank" rel="noopener noreferrer">PDF</a></li>
             <li>{highlightText('2. Digital Logic and Microprocessor.')} <a href="https://drive.google.com/file/d/1sErTm4s-EOAbXElS5Fs0l9arbtZHmHSk/view?usp=drive_link">PDF</a></li>
             <li>{highlightText('3. Programming Language and Its Applications.')} <a href="https://drive.google.com/file/d/1nZcNHsIZXy4K1hsqglnBjVxesm3v-J6R/view?usp=drive_link">PDF</a></li>
             <li>{highlightText('4. Computer Organization and Embedded System.')} <a href="https://drive.google.com/file/d/1f1YrTYGdUKIfZmB4IIDHlhzTNQPnas34/view?usp=drive_link">PDF</a></li>
@@ -33,9 +33,8 @@ const Content = ({ searchTerm }) => {
             <li>{highlightText('9. Concept of Basic Electrical and Electronics Engineering.')} <a href="https://drive.google.com/file/d/1Iz-rsEYY_MIBdUWG5h2WUXHWk8-Eqe5p/view?usp=drive_link">PDF</a></li>
             <li>{highlightText('10. Digital Logic and Microprocessor.')} <a href="https://drive.google.com/file/d/1P6hJAFkb8bUkl8P1i_5LGVlXezEGO8hY/view?usp=drive_link">PDF</a></li>
           </ul>
-          <a href="https://drive.google.com/file/d/1O-j9S8qdoz9OZfkdKoR3u2WKxhrj2IE5/view?usp=drive_link" 
-          className="download-btn"> 
-          <button>Download Syllabus</button>
+          <a href="https://drive.google.com/file/d/1O-j9S8qdoz9OZfkdKoR3u2WKxhrj2IE5/view?usp=drive_link" className="download-btn"> 
+            <button>Download Syllabus</button>
           </a>
         </div>
 
@@ -54,9 +53,8 @@ const Content = ({ searchTerm }) => {
             <li>{highlightText('9. Transportation.')} <a href="https://drive.google.com/file/d/1mP1a9qPwvjoiFbkDf5duWNT43lDKBzIn/view?usp=drive_link">PDF</a></li>
             <li>{highlightText('10. Project Planning, Design and Implementation.')} <a href="https://drive.google.com/file/d/1VsrW1vtVQFuEiXth0WPf57ZUaKT6IEFJ/view?usp=drive_link">PDF</a></li>
           </ul>
-          <a href="https://drive.google.com/file/d/1xqNRmwGvxKTZlngAVmfV4Ywyxq_r81c-/view?usp=drive_link" 
-          className="download-btn"> 
-          <button>Download Syllabus</button>
+          <a href="https://drive.google.com/file/d/1xqNRmwGvxKTZlngAVmfV4Ywyxq_r81c-/view?usp=drive_link" className="download-btn"> 
+            <button>Download Syllabus</button>
           </a>
         </div>
 
@@ -64,17 +62,19 @@ const Content = ({ searchTerm }) => {
         <div className="card">
           <h2 className="card-title">{highlightText('Electronics and Communication Engineering')}</h2>
           <ul>
-          <li>{highlightText('1. Concept of Basic Electrical and Electronics Engineering')} <a href="https://drive.google.com/file/d/12YX8xs2jKyjxFyUTWHkZcotKQW9Wej4W/view?usp=drive_link">PDF</a></li>
+            <li>{highlightText('1. Concept of Basic Electrical and Electronics Engineering')} <a href="https://drive.google.com/file/d/12YX8xs2jKyjxFyUTWHkZcotKQW9Wej4W/view?usp=drive_link">PDF</a></li>
             <li>{highlightText('2. Digital Logic and Microprocessor.')} <a href="https://drive.google.com/file/d/1sErTm4s-EOAbXElS5Fs0l9arbtZHmHSk/view?usp=drive_link">PDF</a></li>
             <li>{highlightText('3. Programming Language and Its Applications.')} <a href="https://drive.google.com/file/d/1nZcNHsIZXy4K1hsqglnBjVxesm3v-J6R/view?usp=drive_link">PDF</a></li>
             <li>{highlightText('4. Computer Organization and Embedded System.')} <a href="https://drive.google.com/file/d/1f1YrTYGdUKIfZmB4IIDHlhzTNQPnas34/view?usp=drive_link">PDF</a></li>
             <li>{highlightText('5. Concept of Basic Electrical and Electronics Engineering.')} <a href="https://drive.google.com/file/d/1ItlFIdcxMO-dYc7qTzHZ_3Nsss04j-DM/view?usp=drive_link">PDF</a></li>
+            <li>{highlightText('6. Digital Logic and Microprocessor.')} <a href="https://drive.google.com/file/d/1F4agVAv7KG6H5xrgyHFgukPJc69rubS3/view?usp=drive_link">PDF</a></li>
+            <li>{highlightText('7. Programming Language and Its Applications.')} <a href="https://drive.google.com/file/d/1UWkQOsmNGQnPgFmoHquRasfMivtGFNM9/view?usp=drive_link">PDF</a></li>
+            <li>{highlightText('8. Computer Organization and Embedded System.')} <a href="https://drive.google.com/file/d/1UWkQOsmNGQnPgFmoHquRasfMivtGFNM9/view?usp=drive_link">PDF</a></li>
+            <li>{highlightText('9. Concept of Basic Electrical and Electronics Engineering.')} <a href="https://drive.google.com/file/d/1Iz-rsEYY_MIBdUWG5h2WUXHWk8-Eqe5p/view?usp=drive_link">PDF</a></li>
             <li>{highlightText('10. Digital Logic and Microprocessor.')} <a href="https://drive.google.com/file/d/1P6hJAFkb8bUkl8P1i_5LGVlXezEGO8hY/view?usp=drive_link">PDF</a></li>
-            <li>Remaining PDF Comming Soon.....</li>
           </ul>
-          <a href="https://drive.google.com/file/d/1US9uymVw_muhRldnzl1E9TQ7EJu_fP2e/view?usp=drive_link" 
-          className="download-btn"> 
-          <button>Download Syllabus</button>
+          <a href="https://drive.google.com/file/d/1O-j9S8qdoz9OZfkdKoR3u2WKxhrj2IE5/view?usp=drive_link" className="download-btn"> 
+            <button>Download Syllabus</button>
           </a>
         </div>
       </div>
